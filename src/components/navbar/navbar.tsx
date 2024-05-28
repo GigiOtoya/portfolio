@@ -2,10 +2,10 @@ import Link from "next/link";
 
 export default function NavBar() {
   return (
-    <div className="w-full px-14 py-2">
+    <div className="w-full py-2">
       <div className="flex justify-between font-bold">
         <span className="">Logo</span>
-        <span className="flex gap-12 ml-auto ">
+        <span className="flex ml-auto gap-6 sm:gap-12">
           <span>
             <Link href={"#about"}>About</Link>
           </span>

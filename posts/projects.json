@@ -1,0 +1,32 @@
+{
+  "pathfinder": {
+    "name": "Pathfinder",
+    "stack": ["JavaScript", "TypeScript", "React", "html5-canvas", "SVG"],
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque cupiditate alias dicta velit? Atque quisquam inventore distinctio, sapiente in velit corporis at adipisci ab dicta dolorem, perferendis deleniti? Asperiores, laudantium.",
+    "versions": [
+      {
+        "version": "v.1",
+        "demo": "https://gigiotoya.github.io/pathfinding-visualizer/",
+        "src": "https://github.com/GigiOtoya/pathfinding-visualizer"
+      },
+      {
+        "version": "v.2",
+        "demo": "https://pathfinder-v2-rho.vercel.app/",
+        "src": "https://github.com/GigiOtoya/pathfinder-v2"
+      }
+    ]
+  },
+
+  "squadbuilder": {
+    "name": "Squad Builder",
+    "stack": ["TypeScript", "React", "Java", "Spring Boot", "Maven", "PostgreSQL", "SVG"],
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque cupiditate alias dicta velit? Atque quisquam inventore distinctio, sapiente in velit corporis at adipisci ab dicta dolorem, perferendis deleniti? Asperiores, laudantium.",
+    "versions": [
+      {
+        "version": "v.1",
+        "demo": "https://stat-tracker-zeta.vercel.app/",
+        "src": "https://github.com/GigiOtoya/statTracker"
+      }
+    ]
+  }
+}

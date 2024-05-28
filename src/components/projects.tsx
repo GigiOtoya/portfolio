@@ -1,28 +1,36 @@
+import Image from "next/image";
 import ProjectCard from "./projects/projectCard";
-import Project from "./projects/projectCard";
 import ProjectDetail from "./projects/projectDetail";
 import SectionLayout from "./sectionLayout";
+import { getProjectData } from "@/utils/parseUtils";
 
 export default function Projects() {
+  const imageAttributes = {
+    width: 464,
+    height: 360,
+    layout: "intrinsic",
+  };
+
+  const projectCards = getProjectData().map((project, id) => (
+    <ProjectCard key={id}>
+      <Image
+        src={project.image}
+        alt={project.name}
+        className="w-full border-2  border-slate-700 rounded-md"
+        {...imageAttributes}
+      />
+      <ProjectDetail
+        name={project.name}
+        stack={project.stack}
+        description={project.description}
+        versions={project.versions}
+      />
+    </ProjectCard>
+  ));
+
   return (
     <SectionLayout id="projects" title="Projects">
-      <ProjectCard>
-        <div>image</div>
-        <ProjectDetail
-          name="Algorithm Visualizer"
-          stack={["JavaScript, TypeScript, React"]}
-          description="
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque cupiditate alias dicta
-        velit? Atque quisquam inventore distinctio, sapiente in velit corporis at adipisci ab
-        dicta dolorem, perferendis deleniti? Asperiores, laudantium."
-          demo="https://pathfinder-v2-rho.vercel.app/"
-          src="https://github.com/GigiOtoya/pathfinder-v2"
-        />
-      </ProjectCard>
-
-      {/* <ProjectCard />
-      <></>
-      <ProjectCard /> */}
+      {projectCards}
     </SectionLayout>
   );
 }
