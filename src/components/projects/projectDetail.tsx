@@ -14,11 +14,13 @@ export default function ProjectDetail(props: ProjectDetailProps) {
         <div key={v.version} className="flex gap-2">
           <span className="text-green-400 font-semibold my-auto min-w-8 ">{v.version}:</span>
           <Link href={v.src} target="_blank" className="bg-slate-500 border-2 rounded-sm p-1 ">
-            SOURCE
+            Source
           </Link>
-          <Link href={v.demo} target="_blank" className="bg-slate-500 border-2 rounded-sm p-1">
-            DEMO
-          </Link>
+          {v.demo && (
+            <Link href={v.demo} target="_blank" className="bg-slate-500 border-2 rounded-sm p-1">
+              Demo
+            </Link>
+          )}
         </div>
       ))}
     </div>

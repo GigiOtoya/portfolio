@@ -28,5 +28,18 @@
         "src": "https://github.com/GigiOtoya/statTracker"
       }
     ]
+  },
+
+  "easyweights": {
+    "name": "Easy Weights",
+    "stack": ["Python", "Blender API", "Blender"],
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque cupiditate alias dicta velit? Atque quisquam inventore distinctio, sapiente in velit corporis at adipisci ab dicta dolorem, perferendis deleniti? Asperiores, laudantium.",
+    "versions": [
+      {
+        "version": "v.1",
+        "demo": "",
+        "src": "https://github.com/GigiOtoya/easy-weights"
+      }
+    ]
   }
 }
