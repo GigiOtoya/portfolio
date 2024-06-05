@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <NavBar />
-      <main className="flex min-h-screen max-w-5xl flex-col items-center justify-between bg-gray-900 m-auto px-8 sm:px-12">
+      <main className="flex min-h-screen max-w-5xl flex-col items-center justify-between bg-gray-950 m-auto px-8 sm:px-12">
         <About />
         <Projects />
         <Contact />

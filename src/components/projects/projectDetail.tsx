@@ -13,11 +13,19 @@ export default function ProjectDetail(props: ProjectDetailProps) {
       {props.versions.map((v) => (
         <div key={v.version} className="flex gap-2">
           <span className="text-green-400 font-semibold my-auto min-w-8 ">{v.version}:</span>
-          <Link href={v.src} target="_blank" className="bg-slate-500 border-2 rounded-sm p-1 ">
+          <Link
+            href={v.src}
+            target="_blank"
+            className="bg-slate-950 border-2 border-sky-800 rounded-sm p-1 hover:border-sky-600 duration-300"
+          >
             Source
           </Link>
           {v.demo && (
-            <Link href={v.demo} target="_blank" className="bg-slate-500 border-2 rounded-sm p-1">
+            <Link
+              href={v.demo}
+              target="_blank"
+              className="bg-slate-950 border-2 border-sky-800 rounded-sm p-1 hover:border-sky-600 duration-300"
+            >
               Demo
             </Link>
           )}
