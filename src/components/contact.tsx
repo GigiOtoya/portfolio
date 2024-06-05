@@ -2,11 +2,13 @@ import Image from "next/image";
 import SectionLayout from "./sectionLayout";
 
 export default function Contact() {
-  const access_key = process.env.ACESS_KEY;
+  const formAction = "https://api.web3forms.com/submit";
+  const accessKey = process.env.ACESS_KEY;
+
   return (
     <SectionLayout id="contact" title="Contact">
-      <form className="flex flex-col gap-y-4  max-w-xl se m-auto">
-        <input type="hidden" name="access_key" value={access_key} />
+      <form action={formAction} className="flex flex-col gap-y-4 max-w-xl se m-auto" method="POST">
+        <input type="hidden" name="access_key" value={accessKey} />
         <div className="flex flex-col gap-1">
           <label>
             Name <span className="text-red-500">*</span>
