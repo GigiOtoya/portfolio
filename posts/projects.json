@@ -2,7 +2,7 @@
   "pathfinder": {
     "name": "Pathfinder",
     "stack": ["JavaScript", "TypeScript", "React", "html5-canvas", "SVG"],
-    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque cupiditate alias dicta velit? Atque quisquam inventore distinctio, sapiente in velit corporis at adipisci ab dicta dolorem, perferendis deleniti? Asperiores, laudantium.",
+    "description": "Pathfinder is an interactive graph visualization tool that enables users to construct custom graphs and implement various algorithms for pathfinding and graph traversal. Designed to promote learning of complex algorithms through user experimentation and a step-by-step visual process. First written in JavaScript with HTML Canvas, then refactored using SVG, TypeScript and React.",
     "versions": [
       {
         "version": "v.1",
@@ -19,8 +19,8 @@
 
   "squadbuilder": {
     "name": "Squad Builder",
-    "stack": ["TypeScript", "React", "Java", "Spring Boot", "Maven", "PostgreSQL", "SVG"],
-    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque cupiditate alias dicta velit? Atque quisquam inventore distinctio, sapiente in velit corporis at adipisci ab dicta dolorem, perferendis deleniti? Asperiores, laudantium.",
+    "stack": ["TypeScript", "React", "Java", "Spring Boot", "Maven", "PostgreSQL", "SVG", "Docker"],
+    "description": " Squad Builder is a team building and management platform tailored for soccer enthusiasts, allowing users to manage teams, players, and execute coaching strategies through a digital tactic board.",
     "versions": [
       {
         "version": "v.1",
@@ -33,7 +33,7 @@
   "easyweights": {
     "name": "Easy Weights",
     "stack": ["Python", "Blender API", "Blender"],
-    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque cupiditate alias dicta velit? Atque quisquam inventore distinctio, sapiente in velit corporis at adipisci ab dicta dolorem, perferendis deleniti? Asperiores, laudantium.",
+    "description": "Easy Weights is a Blender Add-on that provides a user-friendly interface to transfer and clean vertex weights between mesh objects in Blender. This tool is designed to speed-up the workflow of artists and animators by allowing them to quickly transfer weights from a source mesh to one or multiple target meshes, and to clean up unnecessary vertex groups.",
     "versions": [
       {
         "version": "v.1",
