@@ -1,1 +1,19 @@
-sdkfjsdalkjf
+{
+  "intro": "",
+  "about": "",
+  "stack": [
+    "JavaScript",
+    "TypeScript",
+    "Python",
+    "Java",
+    "C#",
+    "React",
+    "Next.JS",
+    "Spring Boot",
+    "HTML",
+    "CSS",
+    "MySQL",
+    "PostgreSQL",
+    "Docker"
+  ]
+}
