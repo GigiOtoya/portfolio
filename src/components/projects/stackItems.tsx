@@ -1,13 +1,13 @@
 type StackProps = {
-  languages: string[];
+  items: string[];
 };
-export default function StackItems({ languages }: StackProps) {
+export default function StackItems({ items }: StackProps) {
   return (
     <div className="flex flex-wrap gap-x-2 gap-y-2">
       {" "}
-      {languages.map((language, idx) => (
+      {items.map((items, idx) => (
         <span key={idx} className="bg-sky-950 rounded-sm p-1 border  border-sky-800 ">
-          {language}
+          {items}
         </span>
       ))}
     </div>

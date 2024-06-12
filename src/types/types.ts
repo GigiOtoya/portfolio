@@ -15,3 +15,9 @@ export type ProjectVersion = {
   demo: string;
   src: string;
 };
+
+export type AboutData = {
+  intro: string;
+  about: string;
+  stack: string[];
+};

@@ -1,7 +1,7 @@
 import Image from "next/image";
-import ProjectCard from "./projects/projectCard";
-import ProjectDetail from "./projects/projectDetail";
-import SectionLayout from "./sectionLayout";
+import ProjectCard from "./projectCard";
+import ProjectDetail from "./projectDetail";
+import SectionLayout from "../sectionLayout";
 import { getProjectData } from "@/utils/parseUtils";
 
 export default function Projects() {

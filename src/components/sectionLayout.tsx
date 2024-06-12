@@ -10,7 +10,7 @@ export default function SectionLayout({ id, title, children }: SectionLayoutProp
   return (
     <div id={id} className="w-full py-2">
       <h1 className="text-4xl font-bold"> {title} </h1>
-      <div>{children}</div>
+      <div className="py-4">{children}</div>
     </div>
   );
 }

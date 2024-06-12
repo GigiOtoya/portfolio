@@ -1,4 +1,4 @@
-import { Project } from "@/types/types";
+import { AboutData, Project } from "@/types/types";
 import path from "path";
 import fs from "fs";
 
@@ -7,7 +7,7 @@ export const getProjectData = () => {
   const data = fs.readFileSync(dataPath, "utf-8");
   const projects: Project = JSON.parse(data);
 
-  const imagesDir = path.join(process.cwd(), "public", "images");
+  const imagesDir = path.join(process.cwd(), "public", "images", "projects");
   const images = fs.readdirSync(imagesDir);
 
   const projectCardsData = images.map((image) => {
@@ -20,4 +20,12 @@ export const getProjectData = () => {
   });
 
   return projectCardsData;
+};
+
+export const getAboutData = () => {
+  const dataPath = path.join(process.cwd(), "posts", "about.json");
+  const data = fs.readFileSync(dataPath, "utf-8");
+  const about: AboutData = JSON.parse(data);
+
+  return about;
 };
