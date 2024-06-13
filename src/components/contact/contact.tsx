@@ -3,7 +3,7 @@ import SectionLayout from "../section/sectionLayout";
 
 export default function Contact() {
   const formAction = "https://api.web3forms.com/submit";
-  const accessKey = process.env.ACESS_KEY;
+  const accessKey = process.env.ACCESS_KEY;
 
   return (
     <SectionLayout id="contact" title="Contact">
