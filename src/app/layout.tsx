@@ -7,6 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Luigi Otoya",
   description: "Personal website created with next.js",
+  icons: "icons/icon.svg",
 };
 
 export default function RootLayout({
