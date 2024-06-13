@@ -9,7 +9,7 @@ export default function ProjectDetail(props: ProjectDetailProps) {
     <div className="flex flex-col gap-y-2">
       <h1 className="text-2xl font-bold text-green-400">{props.name}</h1>
       <StackItems items={props.stack} />
-      <p className="tracking-wider leading-loose">{props.description}</p>
+      <p className="tracking-wider leading-loose ">{props.description}</p>
       {props.versions.map((v) => (
         <div key={v.version} className="flex gap-2">
           <span className="text-green-400 font-semibold my-auto min-w-8 ">{v.version}:</span>

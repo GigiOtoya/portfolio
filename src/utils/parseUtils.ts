@@ -14,7 +14,7 @@ export const getProjectData = () => {
     const id = path.parse(image).name as keyof Project;
 
     if (id in projects) {
-      projects[id].image = `/images/${image}`;
+      projects[id].image = `/images/projects/${image}`;
     }
     return projects[id];
   });

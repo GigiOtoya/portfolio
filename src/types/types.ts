@@ -18,6 +18,6 @@ export type ProjectVersion = {
 
 export type AboutData = {
   intro: string;
-  about: string;
+  about: string[];
   stack: string[];
 };

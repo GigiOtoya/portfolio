@@ -1,6 +1,10 @@
 {
-  "intro": "Hey there! I'm Luigi Otoya, a Computer Science grad with a passion for full stack development, 3D animation, and playing soccer.",
-  "about": "Hi, I'm Luigi Otoya! I recently graduated from The City College of New York with a degree in Computer Science. I love diving into full stack development, especially working with technologies like Node.js, React, Spring Boot, and Docker. I've worked on some cool projects like an ASL learning app, a Pathfinding Visualizer, and a Squad Builder for soccer fans. I’m also into 3D animation with Blender and even write Python add-ons for it. In my free time, you'll probably find me playing soccer or tinkering with new tech.",
+  "intro": "Welcome! I'm Luigi, a Computer Science graduate with a passion for full stack development, 3D animation, and playing soccer.",
+  "about": [
+    "My journey into programming began with a fascination for tinkering with computers, leading me to pursue a degree in Computer Science. My love for art initially drew me into the front-end space where I could blend visual creativity with coding. As I delved deeper, I discovered the intricacies of backend engineering, eventually broadening my skills to encompass diverse aspects of software development.",
+
+    "I've worked on some exciting projects, including a game driven ASL learning app, a Pathfinding Visualizer for exploring complex algorithms, and a Squad Builder platform for soccer enthusiasts. Alongside coding, my interest in 3D animation led me to use Blender, creating animations and writing Python add-ons for the platform. When not coding, I enjoy playing soccer, animating, and experimenting with new tech ideas."
+  ],
   "stack": [
     "JavaScript",
     "TypeScript",

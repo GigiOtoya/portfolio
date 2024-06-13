@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <div className="flex w-full justify-center  bg-black">
       <div className="max-w-5xl w-full flex justify-end">
-        <span className="p-2 font-semibold text-slate-500  text-right   py-8 sm:py-2">
+        <span className="p-2 font-semibold text-slate-500 text-sm  text-right   py-8 sm:py-2">
           <div className="">
             Built with{" "}
             <Link className="text-sky-400" href="https://nextjs.org/">

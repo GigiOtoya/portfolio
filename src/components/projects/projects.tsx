@@ -8,7 +8,6 @@ export default function Projects() {
   const imageAttributes = {
     width: 464,
     height: 360,
-    layout: "intrinsic",
   };
 
   const projectCards = getProjectData().map((project, id) => (

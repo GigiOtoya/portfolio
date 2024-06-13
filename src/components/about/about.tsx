@@ -8,7 +8,7 @@ export default function About() {
     <SectionLayout id="about" title="About Me">
       <ProjectCard>
         <AboutDetail />
-        <Image src={"/images/other/sitting.png"} width={"600"} height={400} alt="what" />
+        <Image src={"/images/other/sitting.png"} width={"600"} height={400} alt="sitting" />
       </ProjectCard>
     </SectionLayout>
   );
