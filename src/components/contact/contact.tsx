@@ -1,5 +1,5 @@
 import Image from "next/image";
-import SectionLayout from "./sectionLayout";
+import SectionLayout from "../section/sectionLayout";
 
 export default function Contact() {
   const formAction = "https://api.web3forms.com/submit";

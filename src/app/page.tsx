@@ -1,5 +1,5 @@
 import Projects from "@/components/projects/projects";
-import Contact from "@/components/contact";
+import Contact from "@/components/contact/contact";
 import About from "@/components/about/about";
 import NavBar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/footer";

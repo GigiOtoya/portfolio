@@ -86,4 +86,4 @@ export function SpotLight(props: JSX.IntrinsicElements["group"]) {
   );
 }
 
-useGLTF.preload("/SpotLight.glb");
+useGLTF.preload("models/SpotLight.glb");
