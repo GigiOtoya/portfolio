@@ -16,6 +16,7 @@ export default function Contact() {
           <input
             className="bg-inherit border-b-2 border-slate-700 rounded-sm p-2"
             placeholder="Your name..."
+            name="name"
             required
           />
         </div>
@@ -27,16 +28,18 @@ export default function Contact() {
             type="email"
             className="bg-inherit border-b-2 border-slate-700 rounded-sm p-2"
             placeholder="example@domain.com"
+            name="email"
             required
           />
         </div>
         <div className="flex flex-col gap-1">
           <label>
-            Subject <span className="text-red-500">*</span>
+            Message <span className="text-red-500">*</span>
           </label>
           <textarea
             className="bg-inherit border-2 border-slate-700 rounded-sm p-2 min-h-72 "
             placeholder="Your message..."
+            name="message"
             required
           />
         </div>
