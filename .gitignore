@@ -40,4 +40,4 @@ next-env.d.ts
 *.blend1
 
 #models
-/public/models
+/public/models/Scene.glb
